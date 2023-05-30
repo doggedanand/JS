@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .color {
+        background-color: yellow;
+        color: red;
+    }
+
+    .dim {
+        border: 1px solid red;
+        padding: 100px;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div id="box" class="color dim">
+        <p>This is dummy text!</p>
+    </div>
+
+
+
+
+    <script>
+        // how to check how many classes are applied
+        let elm=document.getElementById("box");
+        let check=elm.classList;
+        console.log(check);
+
+
+        // want to know in sigle class let's see how
+        for(let css of elm.classList){
+            console.log(css);
+        }
+    </script>
+</body>
+
+</html>
