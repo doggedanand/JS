@@ -1,9 +1,10 @@
 let b = document.getElementById('btn');
 let d = document.getElementById('myDiv');
+let body = document.getElementsByTagName("body")[0];
 
 b.addEventListener('click', btnClicked);
 d.addEventListener('click', divClicked);
-document.body.addEventListener('click', bodyClicked);
+body.addEventListener('click', bodyClicked);
 
 function btnClicked() {
     console.log('btn clicked...')
