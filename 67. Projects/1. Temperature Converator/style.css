@@ -1,0 +1,33 @@
+body {
+    padding: 50px 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+    background-color: #1abc9c;
+    padding: 50px;
+}
+
+.input-div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.inp {
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}

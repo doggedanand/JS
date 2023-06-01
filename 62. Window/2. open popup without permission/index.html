@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- 02:10  -->
+<body>
+    <button id="btn1">click me</button>
+</body>
+<script>
+    let btn1 = document.getElementById('btn1');
+    let url = "https://www.google.com";
+    let feature = "height=500,width=500";
+
+    btn1.addEventListener('click', function () {
+        window.open(url, "Google", feature)     // => window.open expect three things
+    })
+</script>
+
+</html>
+
