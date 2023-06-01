@@ -1,0 +1,27 @@
+body {
+    padding: 50px 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #0067B9;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+#textbox{
+    width: 99.65%;
+    border-color: #0067B9;
+    font-size: 15px;
+}
+p{
+    text-align: center;
+    background-color:  #0067B9;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
