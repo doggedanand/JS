@@ -13,7 +13,7 @@ cel.addEventListener('input', function () {
 });
 
 
-// this function will claculte in fahrenheit
+// this function will calculte in fahrenheit
 fah.addEventListener('input', function () {
     let f = this.value;
     let c = (f - 32) * 5 / 9;
