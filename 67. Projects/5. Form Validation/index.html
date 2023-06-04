@@ -13,12 +13,12 @@
 
     <div id="form-container">
         <h2>Login</h2>
-        <form action="" onclick="return validateForm()">
+        <form action="">
             <input type="text" placeholder="User Name" id="username"><br>
-            <small id="userError" class="error"></small>
+            <p id="userError" class="error"></p>
             <input type="password" placeholder="Password" id="password"><br>
-            <small id="passError" class="error"></small>
-            <input type="submit" name="" id="">
+            <p id="passError" class="error"></p>
+            <input onclick="return validateForm()" type="submit" name="" id="">
         </form>
     </div>
     <script src="/js/app.js"></script>
