@@ -7,14 +7,33 @@
 // object to share and utilize the properties of a parent class using a child class.
 
 let animal = {
-  animalEats: true,
+  animalEats: false,
 };
 
 let rabbit = {
   rabbitJumps: true,
 };
 
-
 rabbit.__proto__ = animal;
 console.log(rabbit.animalEats);
 console.log(rabbit.rabbitJumps);
+
+function Student(n, a) {
+  this.name = n;
+  this.age = a;
+}
+
+Student.prototype.class = function () {
+  return this.name;
+};
+
+const student = new Student("anand", 22);
+console.log("==== Student ====", student);
+
+console.log("==== Student p object ====", student.class);
+
+Student.prototype.class = function () {
+  return this.name + " " + "!";
+};
+
+console.log("==== prototype object ====", student.class());
