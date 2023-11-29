@@ -5,7 +5,7 @@ $(document).ready(function () {
   $("tr").click(function () {
     // $("tr:even").hide();
 
-    // to prevent the remove th in table
+    // to prevent the remove first th in table
     $("tr:even:not(:has(th))").hide();
   });
 });
