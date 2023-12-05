@@ -1,8 +1,8 @@
 // ================================================================
-// It will hide the selected paragraph element on user's click
+// It will select the span parent element
 
 $(document).ready(function () {
   var data = $("span").parent();
   console.log("data is :", data);
-  data.css("background-color","red");
+  data.css("background-color", "red");
 });
